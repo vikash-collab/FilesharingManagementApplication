@@ -57,6 +57,7 @@ FilesharingManagementApplication/
   spring.datasource.url=jdbc:mysql://localhost:3306/filesharingdb
   spring.datasource.username=root
   spring.datasource.password=yourpassword
+  ```
 
 4. **📚 API Endpoints**
    ```bash
@@ -65,7 +66,7 @@ FilesharingManagementApplication/
   GET	/api/files/{id}	Download file by ID                                                                                                                                                          
   GET	/api/files/user/{id}	List user’s files                                                                                                                                                      
   DELETE	/api/files/{id}	Delete file                                                                                                                                                              
-   
+  ``` 
 **🔐 Security**
 In-memory users or JDBC-based authentication
 
