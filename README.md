@@ -13,7 +13,7 @@ A secure and efficient file-sharing platform built with Java and Spring Boot. Th
 - 📄 **RESTful APIs** for integration and automation
 
 ## 🛠️ Tech Stack
-
+                                                                                                 
 | Layer         | Technology                     |
 |--------------|---------------------------------|
 | Backend       | Java 17+, Spring Boot, Maven   |
@@ -24,24 +24,24 @@ A secure and efficient file-sharing platform built with Java and Spring Boot. Th
 
 ## 📦 Project Structure
 
-FilesharingManagementApplication/ 
-├── src/ 
-│ ├── main/ 
-│ │ ├── java/com/filesharing/ 
-│ │ │ ├── controller/ 
-│ │ │ ├── service/ 
-│ │ │ ├── model/ 
-│ │ │ ├── repository/ 
-│ │ │ └── config/ 
-│ │ └── resources/ 
-│ │ │ └──static/style
-│ │ │   └──assets
-│ │ │   └──.css
-│ │ │ └── template
-│ │ │   └──.html
-│ │ └── application.properties 
-├── pom.xml 
-└── README.md
+FilesharingManagementApplication/                                                                                                                                                               
+├── src/                                                                                                                                                                                           
+│ ├── main/                                                                                                                                                                                        
+│ │ ├── java/com/filesharing/                                                                                                                                                                      
+│ │ │ ├── controller/                                                                                                                                                                              
+│ │ │ ├── service/                                                                                                                                                                                
+│ │ │ ├── model/                                                                                                                                                                                   
+│ │ │ ├── repository/                                                                                                                                                                              
+│ │ │ └── config/                                                                                                                                                                                  
+│ │ └── resources/                                                                                                                                                                                 
+│ │ │ └──static/style                                                                                                                                                                              
+│ │ │   └──assets                                                                                                                                                                                  
+│ │ │   └──.css                                                                                                                                                                                    
+│ │ │ └── template                                                                                                                                                                                 
+│ │ │   └──.html                                                                                                                                                                                   
+│ │ └── application.properties                                                                                                                                                                     
+├── pom.xml                                                                                                                                                                                        
+└── README.md                                                                                                                                                                                      
 
 
 ## 🧪 How to Run
@@ -63,14 +63,14 @@ POST	/api/files/upload	Upload a file
 GET	/api/files/{id}	Download file by ID
 GET	/api/files/user/{id}	List user’s files
 DELETE	/api/files/{id}	Delete file
-
+   
 **🔐 Security**
 In-memory users or JDBC-based authentication
 
 Role-based access (ROLE_USER, ROLE_ADMIN)
 
 Optional JWT integration for stateless auth
-
+                                                                                                                                                                                                   
 **🧰 Future Enhancements**
 ✅ JWT-based authentication
 
@@ -79,9 +79,9 @@ Optional JWT integration for stateless auth
 📬 Email notifications on file share
 
 🧾 Versioning and rollback
-
+                                                                                                                                                                                                   
 *🤝 Contributing*
 Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change.
-
+                                                                                                                                                                                                   
 📄 License
 This project is licensed under the MIT License.
