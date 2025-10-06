@@ -52,12 +52,12 @@ FilesharingManagementApplication/
    cd FilesharingManagementApplication
 
 2. **Configure database in application.properties**
-properties
-spring.datasource.url=jdbc:mysql://localhost:3306/filesharingdb
-spring.datasource.username=root
-spring.datasource.password=yourpassword
+   ```properties
+  spring.datasource.url=jdbc:mysql://localhost:3306/filesharingdb
+  spring.datasource.username=root
+  spring.datasource.password=yourpassword
 
-3. **📚 API Endpoints**
+4. **📚 API Endpoints**
 Method	Endpoint	Description
 POST	/api/files/upload	Upload a file
 GET	/api/files/{id}	Download file by ID
